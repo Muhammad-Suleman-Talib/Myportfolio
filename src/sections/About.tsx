@@ -60,10 +60,10 @@ function About() {
           </p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">React</li>
-            <li className="about-grid-info-list-item">React Native</li>
+            {/* <li className="about-grid-info-list-item">React Native</li> */}
             <li className="about-grid-info-list-item">Next.js</li>
             <li className="about-grid-info-list-item">TypeScript</li>
-            <li className="about-grid-info-list-item">Redux Toolkit</li>
+            {/* <li className="about-grid-info-list-item">Redux Toolkit</li> */}
             <li className="about-grid-info-list-item">Tailwind CSS</li>
             <li className="about-grid-info-list-item">CSS</li>
             <li className="about-grid-info-list-item">HTML</li>
