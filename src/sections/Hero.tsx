@@ -4,10 +4,10 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 function Hero() {
   const texts = [
-    "Seamless user interfaces",
-    "Responsive dynamic websites",
-    "Frontend and backend",
-    "Awesome user experiences",
+    "Seamless interfaces",
+    "Responsive websites",
+    "Frontend Master",
+    "Awesome experiences",
   ];
   
   const [displayedText, setDisplayedText] = useState("");
