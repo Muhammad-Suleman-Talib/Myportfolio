@@ -49,9 +49,9 @@ function About() {
             <Link
               className="link"
               target="_blank"
-              href="https://resume-builder-ten.vercel.app.com"
+              href="https://iphone-store-online.vercel.app/"
             >
-              Resume Builder
+              Iphone Store
             </Link>
             &nbsp;aimed at enhancing frontend development skills.
           </p>

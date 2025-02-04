@@ -69,7 +69,7 @@ function Hero() {
           delay: 0.75,
         }}
       >
-        Muhammad <span style={{color:'#9d00ff'}}>Suleman</span>
+        Muhammad <span style={{color:'#f3ff0b'}}>Suleman</span>
       </motion.h2>
       <motion.h1
         className="hero-title-large hero-title-sub"
@@ -97,9 +97,7 @@ function Hero() {
           delay: 1.35,
         }}
       >
-        I&apos;m a software engineer with expertise in creating top-notch
-        digital experiences. My current focus is on developing products that are
-        accessible and centered around user needs, as part of the team at&nbsp;
+        I’m a frontend developer with a strong focus on creating top-tier digital experiences. My expertise lies in designing products that are both accessible and centered around the needs of users. Currently, I’m part of a dynamic team dedicated to delivering solutions that prioritize user experience while maintaining high standards of functionality and design.
         <Link href="https://www.linkedin.com/in/muhammad-suleman-a049902b5/" target="_blank" className="link">
           Linked IN
         </Link>
@@ -115,8 +113,8 @@ function Hero() {
         }}
       >
         <Button
-          text="Let's make our team!"
-          link="https://www.linkedin.com/in/muhammad-suleman-a049902b5/"
+          text="Let's connect with us!"
+          link="/resume"
         />
       </motion.div>
     </div>

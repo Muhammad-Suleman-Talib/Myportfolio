@@ -14,10 +14,10 @@ function Experience() {
 
   const experiences = [
     {
-      name: "Rapidops",
+      name: "Frontend Master",
       role: "Frontend Developer",
       url: "https://www.",
-      start: "January 2021",
+      start: "January 2024",
       end: "Present",
       shortDescription: [
         "Gained experience working on a large-scale frontend codebase, focusing on creating visually appealing and responsive UI components.",
@@ -30,7 +30,7 @@ function Experience() {
       name: "YouTube",
       role: "Frontend Content Creator",
       url: "https://www.youtube.com",
-      start: "April 2021",
+      start: "April 2024",
       end: "Present",
       shortDescription: [
         "Started a YouTube channel to share knowledge and create engaging tutorials on React and modern frontend technologies.",
@@ -43,8 +43,8 @@ function Experience() {
       name: "ACES",
       role: "President",
       url: "https://www.linkedin.com",
-      start: "November 2019",
-      end: "November 2020",
+      start: "November 2024",
+      end: "November 2025",
       shortDescription: [
         "Led a team to design and develop websites for departmental events, focusing on user-friendly and interactive frontend designs.",
         "Secured sponsorships from major brands to support events and workshops aimed at enhancing technical skills.",
@@ -55,8 +55,8 @@ function Experience() {
       name: "ISTE",
       role: "Frontend Web Developer",
       url: "https://www.linkedin.com",
-      start: "November 2019",
-      end: "November 2020",
+      start: "November 2024",
+      end: "November 2025",
       shortDescription: [
         "Developed modern and performant frontend interfaces for a variety of internal and client projects.",
         "Worked extensively with JavaScript, TypeScript, React, and Gatsby to create responsive and interactive web applications.",
@@ -64,11 +64,11 @@ function Experience() {
       ],
     },
     {
-      name: "Shashaan",
+      name: "Muhammad Suleman",
       role: "Founder",
       url: "https://www.linkedin.com",
-      start: "November 2018",
-      end: "November 2021",
+      start: "November 2024",
+      end: "November 2025",
       shortDescription: [
         "Founded a web hosting company, focusing on creating a user-friendly interface for customers to manage their hosting services.",
         "Successfully onboarded over 300 customers, delivering seamless user experiences through an intuitive frontend design.",

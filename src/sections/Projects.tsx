@@ -7,62 +7,153 @@ import { motion } from "framer-motion";
 function Projects() {
   const projectsData = [
     {
-      image: "/project1.png",
-      projectName: "Pokedex",
-      projectLink: "https://netlify.com",
+      image: "/p1.png",
+      projectName: "Iphone-Store",
+      projectLink: "https://iphone-store-online.vercel.app/",
       projectDescription:
-        "This is a web application that uses the PokeAPI to display information about different Pokemon, including their evolution levels and details. You can compare multiple Pokemon using a queue, and add them to your personal list using Firebase's Firestore database.",
+        "iPhone Store Online offers a seamless shopping experience for the latest Apple products, including iPhones and accessories. Enjoy a modern design, secure checkout, and a fully responsive interface for effortless browsing.",
       projectTech: [
-        "React",
-        "Redux Toolkit",
-        "SCSS",
-        "Firebase",
-        "Typescript",
-        "PokeApi",
+        "Nexjs",
+        "Tailwindcss",
+        "Sanity",
+        "MockApi",
+        "Stripe",
+        "Zustand",
       ],
       projectExternalLinks: {
         github: "",
-        externalLink: "",
+        externalLink: "https://iphone-store-online.vercel.app/",
       },
     },
     {
-      image: "/project2.png",
-      projectName: "Realtime Chat App",
-      projectLink: "https://netlify.com",
+      image: "/p2.png",
+      projectName: "Food-Tuck",
+      projectLink: "https://food-tuck-my.vercel.app/",
       projectDescription:
-        "This is a chat app made with React and Node.js that sends real-time messages and is highly scalable. It uses advanced JavaScript concepts like debouncing and is optimized for React. It has 300+ stars on GitHub and over 180k views on YouTube.",
+        "Food Tuck – Your go-to online food hub, offering a delicious variety of meals with a seamless ordering experience. Enjoy a modern, user-friendly design with quick navigation and secure checkout.",
       projectTech: [
-        "React",
-        "Sockets",
-        "Node.js",
-        "Express",
-        "MongoDB",
+        "Next.js",
+        "Sanity",
+        "Tailwindcss",
+        "Hakaton project",
+        "favourate food",
         "Styled Components",
       ],
       projectExternalLinks: {
         github: "",
-        externalLink: "",
+        externalLink: "https://food-tuck-my.vercel.app/",
       },
     },
     {
-      image: "/project3.png",
-      projectName: "Netflix App",
-      projectLink: "https://netlify.com",
+      image: "/p3.png",
+      projectName: "Resume-Builder",
+      projectLink: "https://resume-builder-zeta-beige.vercel.app/",
       projectDescription:
-        "I made a Netflix copy with TMBD Api. It has infinite scrolling and lets you watch movies by genre. You can also add movies to your favorites list.",
+        "Resume Builder – A sleek and intuitive platform to create professional resumes effortlessly. Customize your resume with ease, add your skills, and generate a polished document in minutes.",
       projectTech: [
-        "React",
-        "Node.js",
-        "Firebase",
-        "MongoDB",
-        "Express",
-        "Redux Toolkit",
+        "html",
+        "css",
+        "javascript",
+        "styled-components",
+        
       ],
       projectExternalLinks: {
         github: "",
-        externalLink: "",
+        externalLink: "https://resume-builder-zeta-beige.vercel.app/",
       },
     },
+    {
+      image: "/p4.png",
+      projectName: "Learning App",
+      projectLink: "https://starlearning.netlify.app/",
+      projectDescription:
+        "Star Learning – An interactive and user-friendly platform designed for seamless learning experiences. Explore engaging courses, intuitive navigation, and a responsive design for effortless access anytime, anywhere.",
+      projectTech: [
+        "html",
+        "css",
+        
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://starlearning.netlify.app/",
+      },
+    },
+    {
+      image: "/p6.png",
+      projectName: "Lamborghini Landing Page",
+      projectLink: "https://lamborganipk.netlify.app/",
+      projectDescription:
+        "Lamborgani PK – A stylish and modern website offering a seamless browsing experience. Explore premium content with a sleek UI, fast performance, and full responsiveness for all devices.",
+      projectTech: [
+        "html",
+        "css",
+        "javascript",
+      'UI/UX',
+        "Styled Components",
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://lamborganipk.netlify.app/",
+      },
+    },
+    {
+      image: "/p5.png",
+      projectName: "Dressing.Pk",
+      projectLink: "https://dresssingpk.netlify.app/",
+      projectDescription:
+        "Dressing PK – A modern and stylish online store offering trendy fashion choices with a seamless shopping experience. Browse the latest collections with a sleek UI, fast performance, and full responsiveness.",
+      projectTech: [
+        "html",
+        "css",
+        "javascript",
+        "UI/UX",
+        "Styled Components",
+       
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://dresssingpk.netlify.app/",
+      },
+    },
+    {
+      image: "/p7.png",
+      projectName: "Nike AirMax Landing Page",
+      projectLink: "https://shoespk.netlify.app/",
+      projectDescription:
+        "Nike Air Max – Stylish, comfortable, and built with Air cushioning for ultimate support. Perfect for sports, casual wear, and all-day comfort.",
+      projectTech: [
+        "html",
+        "css",
+        "javascript",
+        "UI/UX",
+        "Styled Components",
+        
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://shoespk.netlify.app/",
+      },
+    },
+    {
+      image: "/p8.png",
+      projectName: "Ecommerce Shop",
+      projectLink: "https://shopecommercepk.netlify.app/",
+      projectDescription:
+        "Shop Ecommerce PK – A modern and user-friendly online store offering a seamless shopping experience with fast performance and full responsiveness.",
+      projectTech: [
+        "html",
+        "css",
+        "javascript",
+        "UI/UX",
+        "Styled Components",
+        
+      ],
+      projectExternalLinks: {
+        github: "",
+        externalLink: "https://shopecommercepk.netlify.app/",
+      },
+    },
+   
   ];
   return (
     <div className="projects" id="work">
