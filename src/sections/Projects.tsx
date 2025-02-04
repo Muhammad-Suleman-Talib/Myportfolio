@@ -207,7 +207,7 @@ function Projects() {
                   </div>
                   <ul className="project-info-tech-list">
                     {projectTech.map((tech) => (
-                      <li className="project-info-tech-list-item" key={tech}>
+                      <li className="project-info-tech-list-item " key={tech}>
                         {tech}
                       </li>
                     ))}
