@@ -1,5 +1,4 @@
 import React from 'react'
-
 export default function Resume() {
   const imageUrl = '/resume.png'; // replace with your image path
 

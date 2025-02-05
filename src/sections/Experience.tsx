@@ -14,68 +14,69 @@ function Experience() {
 
   const experiences = [
     {
-      name: "Frontend Master",
-      role: "Frontend Developer",
-      url: "https://www.",
-      start: "January 2024",
-      end: "Present",
-      shortDescription: [
+      "name": "Frontend Master",
+      "role": "Frontend Developer",
+      "url": "https://www.",
+      "start": "January 2024",
+      "end": "Present",
+      "shortDescription": [
         "Gained experience working on a large-scale frontend codebase, focusing on creating visually appealing and responsive UI components.",
-        "Worked extensively with React, Redux, and TypeScript to build dynamic and maintainable web applications.",
+        "Worked extensively with Next.js, React, and TypeScript to build dynamic and maintainable web applications.",
         "Collaborated closely with a team of developers and designers to ensure a seamless user experience.",
-        "Represented the company in client meetings, discussing frontend requirements and delivering impactful solutions.",
-      ],
+        "Represented the company in client meetings, discussing frontend requirements and delivering impactful solutions."
+      ]
     },
     {
-      name: "YouTube",
-      role: "Frontend Content Creator",
-      url: "https://www.youtube.com",
-      start: "April 2024",
-      end: "Present",
-      shortDescription: [
-        "Started a YouTube channel to share knowledge and create engaging tutorials on React and modern frontend technologies.",
+      "name": "YouTube",
+      "role": "Frontend Content Creator",
+      "url": "https://www.youtube.com",
+      "start": "April 2024",
+      "end": "Present",
+      "shortDescription": [
+        "Started a YouTube channel to share knowledge and create engaging tutorials on Next.js, React, and modern frontend technologies.",
         "Built and showcased over 50 frontend projects, including portfolios, dashboards, and e-commerce websites.",
-        "Grew an audience of over 11,000 subscribers by consistently sharing high-quality and informative content.",
-        "Collaborated with leading tech brands to promote modern frontend tools and frameworks.",
-      ],
+        "Grew an audience by consistently sharing high-quality and informative content.",
+        "Collaborated with leading tech brands to promote modern frontend tools and frameworks."
+      ]
     },
     {
-      name: "ACES",
-      role: "President",
-      url: "https://www.linkedin.com",
-      start: "November 2024",
-      end: "November 2025",
-      shortDescription: [
-        "Led a team to design and develop websites for departmental events, focusing on user-friendly and interactive frontend designs.",
-        "Secured sponsorships from major brands to support events and workshops aimed at enhancing technical skills.",
-        "Gained valuable leadership experience while mentoring team members on frontend development best practices.",
-      ],
+      "name": "GIAIC",
+      "role": "Senior Student Team Member",
+      "url": "https://www.giaic.com",
+      "start": "September 2024",
+      "end": "Present",
+      "shortDescription": [
+        "Contributed to mentoring and guiding junior students in learning frontend development with modern technologies.",
+        "Helped in organizing workshops and coding sessions focused on Next.js, TypeScript, and Tailwind CSS.",
+        "Engaged in team discussions to enhance the learning experience for students at GIAIC."
+      ]
     },
     {
-      name: "ISTE",
-      role: "Frontend Web Developer",
-      url: "https://www.linkedin.com",
-      start: "November 2024",
-      end: "November 2025",
-      shortDescription: [
+      "name": "ISTE",
+      "role": "Frontend Web Developer",
+      "url": "https://www.linkedin.com",
+      "start": "November 2024",
+      "end": "November 2025",
+      "shortDescription": [
         "Developed modern and performant frontend interfaces for a variety of internal and client projects.",
-        "Worked extensively with JavaScript, TypeScript, React, and Gatsby to create responsive and interactive web applications.",
-        "Collaborated daily with cross-functional teams to ensure smooth integration of frontend and backend systems.",
-      ],
+        "Worked extensively with JavaScript, TypeScript, Next.js, and Tailwind CSS to create responsive and interactive web applications.",
+        "Collaborated daily with cross-functional teams to ensure smooth integration of frontend and backend systems."
+      ]
     },
     {
-      name: "Muhammad Suleman",
-      role: "Founder",
-      url: "https://www.linkedin.com",
-      start: "November 2024",
-      end: "November 2025",
-      shortDescription: [
+      "name": "Muhammad Suleman",
+      "role": "Founder",
+      "url": "https://www.linkedin.com",
+      "start": "November 2024",
+      "end": "November 2025",
+      "shortDescription": [
         "Founded a web hosting company, focusing on creating a user-friendly interface for customers to manage their hosting services.",
         "Successfully onboarded over 300 customers, delivering seamless user experiences through an intuitive frontend design.",
-        "Grew the business until graduation, after which it was sold to another company.",
-      ],
-    },
-  ];
+        "Grew the business until graduation, after which it was sold to another company."
+      ]
+    }
+  ]
+  
   
   return (
     <motion.div
