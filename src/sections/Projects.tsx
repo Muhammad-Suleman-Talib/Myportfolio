@@ -22,7 +22,7 @@ function Projects() {
       ],
       projectExternalLinks: {
         github: "",
-        externalLink: "https://iphone-store-online.vercel.app/",
+        externalLink: "https://iphone-store-online-5m9dknlen.vercel.app/",
       },
     },
     {
